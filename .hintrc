@@ -3,11 +3,14 @@
     "development"
   ],
   "hints": {
+    "button-type": "off",
     "axe/structure": [
       "default",
       {
         "listitem": "off"
       }
-    ]
+    ],
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/strict": "off"
   }
 }

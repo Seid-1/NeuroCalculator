@@ -5,16 +5,17 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
+    base: "./",
     plugins: [react()],
     server: {
       port: 3000,
       host: "0.0.0.0",
     },
     build: {
-      outDir: "dist", // folder Vite will build your app into
+      outDir: "dist",
       emptyOutDir: true,
       rollupOptions: {
-        input: path.resolve(__dirname, "index.html"), // your main html
+        input: path.resolve(__dirname, "index.html"),
       },
     },
     resolve: {
