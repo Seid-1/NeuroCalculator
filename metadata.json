@@ -1,0 +1,7 @@
+{
+  "name": "NeuroCalc",
+  "description": "An advanced AI-powered scientific calculator capable of complex problem solving, step-by-step reasoning using Gemini 3 Pro, and real-time function graphing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
